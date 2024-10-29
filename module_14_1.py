@@ -7,7 +7,7 @@ cursor.execute(''
                'username TEXT NOT NULL,'
                'email TEXT NOT NULL,'
                'age INTEGER,'
-               'balance INTEGER TEXT NOT NULL)''')
+               'balance INT TEXT NOT NULL)''')
 
 cursor.execute(" CREATE INDEX IF NOT EXISTS idx_email ON Users (email)")
 
